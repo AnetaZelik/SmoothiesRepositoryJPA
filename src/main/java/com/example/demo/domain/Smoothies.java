@@ -17,5 +17,5 @@ public class Smoothies {
     @NonNull
     private String name;
     @NonNull
-    private Fruits ingredient;
+    private String ingredient;
 }

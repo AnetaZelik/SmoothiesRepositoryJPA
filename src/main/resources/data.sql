@@ -1,5 +1,5 @@
-INSERT INTO smoothies VALUES (1, sweet, strawberry);
-INSERT INTO smoothies VALUES (2, forest, blackberry);
-INSERT INTO smoothies VALUES (3, vivid, raspberry);
-INSERT INTO smoothies VALUES (4, sunny, banana);
-INSERT INTO smoothies VALUES (4, fresh, kiwi);
+INSERT INTO Smoothies (id, name, ingredient) VALUES (1, 'sweet', 'STRAWBERRY');
+INSERT INTO Smoothies (id, name, ingredient) VALUES (2, 'forest', 'BLACKBERRY');
+INSERT INTO Smoothies (id, name, ingredient) VALUES (3, 'vivid', 'RASPBERRY');
+INSERT INTO Smoothies (id, name, ingredient) VALUES (4, 'sunny', 'BANANA');
+INSERT INTO Smoothies (id, name, ingredient) VALUES (5, 'fresh', 'KIWI');
