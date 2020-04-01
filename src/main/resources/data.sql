@@ -1,5 +1,5 @@
-INSERT INTO fruits VALUES (strawberry);
-INSERT INTO fruits VALUES (blackberry);
-INSERT INTO fruits VALUES (raspberry);
-INSERT INTO fruits VALUES (banana);
-INSERT INTO fruits VALUES (kiwi);
+INSERT INTO smoothies VALUES (1, sweet, strawberry);
+INSERT INTO smoothies VALUES (2, forest, blackberry);
+INSERT INTO smoothies VALUES (3, vivid, raspberry);
+INSERT INTO smoothies VALUES (4, sunny, banana);
+INSERT INTO smoothies VALUES (4, fresh, kiwi);
