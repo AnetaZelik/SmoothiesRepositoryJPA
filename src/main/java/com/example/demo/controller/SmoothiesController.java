@@ -9,11 +9,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SmoothiesController {
     private SmoothiesRepository smoothiesRepository;
-    public SmoothiesController(SmoothiesRepository smoothiesRepository){
+
+    public SmoothiesController(SmoothiesRepository smoothiesRepository) {
         this.smoothiesRepository = smoothiesRepository;
     }
+
     @GetMapping("/smoothies")
-    public Smoothies serveSmoothie(@PathVariable Long id){
+    public Smoothies serveSmoothie(@PathVariable Long id) {
         return smoothiesRepository.findById(id).get();
     }
 }
